@@ -1,5 +1,5 @@
 name = Droopy
-description = Learning drupal
+description = Alisa Holmes Fan Club
 core = 7.x
 
 stylesheets[all][] = css/style.css
