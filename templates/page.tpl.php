@@ -1,10 +1,14 @@
+
 <?php if ($logged_in): ?>
 	<?= render($page['user_menu']); ?>
 <?php else: ?>
-	<p>No user menu</p>
+	<ul>
+		<li>
+			<a href="<?php base_path(); ?>user/login">Log In</a>
+		</li>
+	</ul>
 <?php endif; ?>
 
-<hr>
 
 <?php print render($page['content']); ?>
 
