@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lemon);
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
 @import "normalize";
 
 // User menu
@@ -7,10 +8,19 @@ $menu-bg: pink !default;
 // Header font
 $header-font: 'Lemon', cursive;
 
+// Content font
+$content-font: 'Happy Monkey', cursive;
+
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+body{
+	color: #fff;
+    height: 100%;
+    background: #805F7F;
 }
 
 // Header
@@ -88,5 +98,6 @@ $header-font: 'Lemon', cursive;
 // Main Content
 .droopy-main-content{
 	margin: 1rem auto;
-	max-width: 80rem;
+	max-width: 40rem;
+	font-family: $content-font;
 }

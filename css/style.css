@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lemon);
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -359,6 +360,11 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  color: #fff;
+  height: 100%;
+  background: #805F7F; }
+
 .droopy-main-header {
   text-align: center;
   background: #8C208C; }
@@ -411,6 +417,7 @@ th {
 
 .droopy-main-content {
   margin: 1rem auto;
-  max-width: 80rem; }
+  max-width: 40rem;
+  font-family: "Happy Monkey", cursive; }
 
 /*# sourceMappingURL=style.css.map */
