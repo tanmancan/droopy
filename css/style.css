@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lemon);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -358,24 +359,58 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.region-user-menu {
-  background: #333; }
-  .region-user-menu h2 {
+.droopy-main-header {
+  text-align: center;
+  background: #8C208C; }
+  .droopy-main-header h1 {
+    font-family: "Lemon", cursive;
+    margin: 0;
+    padding: 1rem 0;
+    color: #fff;
+    text-shadow: 0px 0px 20px red;
+    -webkit-animation: glow 3s ease infinite; }
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 20px red; }
+  25% {
+    text-shadow: 0px 0px 20px #80ff00; }
+  50% {
+    text-shadow: 0px 0px 20px cyan; }
+  75% {
+    text-shadow: 0px 0px 20px #7f00ff; }
+  100% {
+    text-shadow: 0px 0px 20px red; } }
+.droopy-user-menu, .droopy-main-menu {
+  background: pink;
+  position: relative; }
+  .droopy-user-menu h2, .droopy-main-menu h2 {
     display: none; }
-  .region-user-menu ul {
+  .droopy-user-menu ul, .droopy-main-menu ul {
     margin: 0;
     padding: 1rem;
-    list-style: none; }
-    .region-user-menu ul li {
-      display: inline-block;
-      float: right;
+    list-style: none;
+    text-align: right; }
+    .droopy-user-menu ul li, .droopy-main-menu ul li {
+      display: inline;
       margin: 0 1rem 0 0; }
-      .region-user-menu ul li a {
-        color: #fff;
+      .droopy-user-menu ul li a, .droopy-main-menu ul li a {
+        color: #961B31;
         text-decoration: none; }
-    .region-user-menu ul:after {
+    .droopy-user-menu ul:after, .droopy-main-menu ul:after {
       content: ' ';
       display: table;
       clear: both; }
+
+.droopy-main-menu .droopy-logo {
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+  left: 10px;
+  height: 130px; }
+
+.droopy-main-content {
+  margin: 1rem auto;
+  max-width: 80rem; }
 
 /*# sourceMappingURL=style.css.map */
